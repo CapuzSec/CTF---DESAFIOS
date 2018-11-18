@@ -1,0 +1,48 @@
+	section {
+	  	height: 100vh;
+	   	padding: 2vw;
+    	font-size: 4vw;
+
+	}
+
+	section {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	}
+
+	section:first-of-type {
+	    text-transform: uppercase;
+	    font-size: 7vw;
+
+	}
+
+	section {
+    	background-size: cover;
+   		background-repeat: no-repeat;
+   		
+	}
+
+	section:nth-of-type(odd) {
+    color: #fff;
+    background-color: #000;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
+
+	}
+
+	section:nth-child(1) {
+	    background-image: url(../img/fundo.jpeg);
+	    background-attachment: fixed
+	}
+
+	section:nth-child(3) {
+	    background-image: url(../img/fundo.jpeg);
+	    background-attachment: fixed
+	}
+
+	section:nth-child(5) {
+	    background-image: url(../img/fundo.jpeg);
+	    background-attachment: fixed
+	}
